@@ -50,8 +50,3 @@ docker attach nome_do_container
 
 
 
-## Componentes
-
-- Stateful são aplicações que possuem persistência de dados, portanto o Banco de Dados.
-
-- Stateless por outro lado não possuem persistência de dados como páginas estáticas por exemplo, portanto a parte de front-end.
