@@ -17,6 +17,13 @@ WORKDIR /var/www/html/
 COPY . /var/www/html/
 
 ```
+## Criar uma imagem
+Trocar *tag* por rc-*versão* para gerar uma imagem no dockerhub
+
+```sh
+$ docker build . -t front-php:*tag*
+```
+
 ## Criar um container
 Para executar um container utilize o comando run com o nome da imagem que vá utilizar para a criação:
 
