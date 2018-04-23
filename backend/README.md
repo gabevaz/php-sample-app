@@ -57,6 +57,6 @@ Para juntar o frontend e backend usa-se o seguinte comando:
 docker run -d -p 80:80 --name frontend --link backend frontend:0.0.1
 ```
 
-Acima temos que rodar o front, depois expor o conteúdo na porta 80:80, dar um nome (frontend), linkar eke com o container de backend, falando que eles tem que se comunicar entre eles e por ultimo indicar o nome da imagem e sua versão.
+Acima temos que rodar o front, depois expor o conteúdo na porta 80:80, dar um nome (frontend), linkar ele com o container de backend, falando que eles tem que se comunicar entre si e por ultimo indicar o nome da imagem e sua versão.
 
 
